@@ -78,8 +78,10 @@
 
           <div class="col-lg-7">
             <div class="about-descr">
-              <p class="p-heading">I am a software developer that enjoy challenges and improve everyday! I major in Computer Science at the University of Calgary graduating in December 2022.</p>
-              <p class="separator">I am a strong believer for personal growth, and always looking for ways to develop impactful skills that pushes growth of myself and people around me.</p>
+              <p class="p-heading">I majored in Computer Science at the University of Calgary. I am a software developer that enjoy challenges and improve everyday! I believes in the things I do and doing what I love, and I LOVE programming.</p>
+              <p class="separator">
+                I am a strong believer in personal growth, and always looking for ways to develop impactful skills that pushes growth of myself.
+              </p>
             </div>
             <p class="resume"><a href="assets/resume/Resume for Software.pdf">Download Resume here</a></p>
           </div>
@@ -87,7 +89,50 @@
       </div>
     </div><!-- End About Section -->
 
-    <!-- ======= Journal Section ======= -->
+    <!-- WORK EXPERIENCES -->
+    <div id="project" class="text-left paddsection">
+
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>Work Experiences</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="journal-block">
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+
+                <a><img src="assets/img/portfolio/studentEnrollment.png" class="img-responsive" alt="img"></a>
+
+                <div class="journal-txt">
+
+                  <h4><a style="color:#FF3232">Student Enrollment Web Application</a></h4>
+                  <p class="separator">
+                    <div>
+                      <p>University of Calgary: Augest 2022 - Current</p>
+                    </div>
+                    <h4>A student enrollment web application for students to sign in to and pick their desired courses if requirements are met.</h4>
+                    <ul>
+                      <li>Modifying Web-enabled, group-scheduling system for University of Calgary, allowing students to view and print schedules for current and future semesters using PHP.</li>
+                      <li>Innovated time-saving, robust data-intake system that automates and modifies databases using mySQL.</li>
+                    </ul>
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Journal Section -->
+
+    <!-- ======= Project Section ======= -->
     <div id="project" class="text-left paddsection">
 
       <div class="container">
@@ -107,10 +152,17 @@
 
                 <div class="journal-txt">
 
-                  <h4><a href="https://github.com/zacharykoo/EcommerceWebApp">Ecommerce Website Application</a></h4>
-                  <p class="separator">Backend API handling created with industrial approach where a handler is used to process each "GET", "POST" and "PUT" requests.
-                    SQLite is used for database management and GORM is used to handle the Query and creates the database and is written in Golang.
-                    Frontend user interface are created using Angular.
+                  <h4><a style="color:#FF3232" href="https://github.com/zacharykoo/EcommerceWebApp">Ecommerce Website Application</a></h4>
+                  <p class="separator">
+                    <div>
+                      <h4>A general Ecommerce Website which sells many different products. Customers and Admins can login respectively, to gain different authorization.</h4>
+                    </div>
+
+                    <ul>
+                      <li>Backend API handler created with industrial approach where a handler is used to process each "GET", "POST" and "PUT" requests.</li>
+                      <li>SQLite is used for database management and GORM is used to handle the Query and create the database and is written in Golang.</li>
+                      <li>Established frontend connection with API requests using Angular.</li>
+                    </ul>
                   </p>
 
                 </div>
@@ -125,9 +177,16 @@
 
                 <div class="journal-txt">
 
-                  <h4><a href="https://github.com/zacharykoo/DistributedSystem">Distributed System</a></h4>
-                  <p class="separator">Designing and implementing distributed systems with system communications using paradigms, fault tolerance and coordination in Java.
-                    Communications and information transfer are ordered by timed system and ACKs are implemented to ensure data is sent correctly.
+                  <h4><a style="color:#FF3232" href="https://github.com/zacharykoo/DistributedSystem">Distributed System</a></h4>
+                  <p class="separator">
+                    <div>
+                      <h4>Distributed System is designed to send requests, messages and files between users within the same server.</h4>
+                    </div>
+                    <ul>
+                      <li>Designed and implemented peer-to-peer distributed systems with system communications using paradigms, fault tolerance and coordination in Java.</li>
+                      <li>Communications and information transfer are ordered by a timed system and ACKs are implemented to ensure data is sent correctly.</li>
+                      <li>Connection is established by UDP Datagram socket and can handle a minimum of 121 users request concurrently with at most 7.76 ms delay.</li>
+                    </ul>
                   </p>
 
                 </div>
@@ -142,10 +201,16 @@
 
                 <div class="journal-txt">
 
-                  <h4><a href="https://github.com/zacharykoo/selfcheckoutProject">Supermarket Self-Checkout System</a></h4>
-                  <p class="separator">This project is designed to replicate a normal self-checkout system in a super market. 
-                    Items can be scanned, bagged and price will be updated accordingly. 
-                    Weight of the items are tracked in the bagging area to ensure items is correctly scanned. Payment methods includes Cash, Card and digital coins.
+                  <h4><a style="color:#FF3232" href="https://github.com/zacharykoo/selfcheckoutProject">Supermarket Self-Checkout System</a></h4>
+                  <p class="separator">
+                    <div>
+                      <h4>This project is designed to replicate a normal self-checkout system in a super market.</h4>
+                    </div>
+                    <ul>
+                      <li>Items can be scanned via PLU code or scanning barcode, bagged and price will be updated accordingly using observers.</li>
+                      <li>Weight of the items are tracked in the bagging area to ensure items are correctly scanned. Payment methods include cash, card, and digital coins.</li>
+                      <li>Each component of the software is tested and has 100% unit test coverage to ensure the application is functionally implemented using Java.</li>
+                    </ul>
                   </p>
 
                 </div>
@@ -160,12 +225,16 @@
 
                 <div class="journal-txt">
 
-                  <h4><a href="https://github.com/nightowl-studios/arcade">Nightowl-Studios - drawing game</a></h4>
-                  <p class="separator">This project is designed to replicate online real time drawing game. 
-                    Websockets are implemented in order to get client-server both way communications.
-                    Game engine and game handlers were developed using Golang and Vue.
+                  <h4><a style="color:#FF3232" href="https://github.com/nightowl-studios/arcade">Nightowl-Studios: Real time drawing-guessing game</a></h4>
+                  <p class="separator">
+                    <div>
+                      <h4>Real time drawing game that is definitely not copying the concept of scribbl.io. (cough cough)</h4>
+                    </div>
+                    <ul>
+                      <li>Backend websocket connection and API service implemented using Gorilla, drawing tool canvas with event handlers implemented in Golang.</li>
+                      <li>Web client, frontend communication with general UI were designed in VueJS.</li>
+                    </ul>
                   </p>
-
                 </div>
 
               </div>
